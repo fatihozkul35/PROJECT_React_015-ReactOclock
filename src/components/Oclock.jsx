@@ -38,8 +38,10 @@ const Oclock = () => {
   }
   return (
     <Container className="d-flex flex-column justify-content-center align-items-center">
-      <h1 className="mt-3 mb-5">Oclock Project</h1>
-      <Row>{!oclock ? "" : <div className="oclock">{oclock}</div>}</Row>
+      <h1 className="title mt-5 mb-5">Oclock Project</h1>
+      <Row className="mt-5">
+        {!oclock ? "" : <div className="oclock">{oclock}</div>}
+      </Row>
     </Container>
   );
 };

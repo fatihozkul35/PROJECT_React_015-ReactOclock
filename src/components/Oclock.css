@@ -1,6 +1,16 @@
+.title {
+  color: #9aeba3;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: "Orbitron", sans-serif;
+}
+
 .oclock {
   font-size: 6rem;
-  color: rgb(72, 255, 0);
-  border: 2px solid red;
+  color: #9aeba3;
+  border: 2px solid #dafdba;
   border-radius: 45px;
+  font-family: "Orbitron", sans-serif;
+  background-color: #012030;
+  box-shadow: -10px -10px #45c4b0, -20px -20px #45c4b0, -30px -30px #45c4b0;
 }
